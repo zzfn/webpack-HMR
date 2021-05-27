@@ -4,18 +4,18 @@ const path = require("path");
 module.exports = {
     target: 'web',
     mode: "development",
-    entry:'./index.js',
+    entry: './index.js',
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            title: 'Hot Module Replacement'
-        })
+        new HtmlWebpackPlugin({title: 'Hot Module Replacement'})
     ],
     devtool: 'source-map',
     devServer: {
+        inline:true,
+        // hot:false
         hotOnly: true
     }
 }
