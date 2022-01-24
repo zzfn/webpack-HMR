@@ -1,0 +1,28 @@
+{
+  "name": "webpack-hmr",
+  "version": "1.0.0",
+  "description": "webpack热更新研究库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzfn/webpack-HMR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzfn/webpack-HMR/issues"
+  },
+  "homepage": "https://github.com/zzfn/webpack-HMR#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
